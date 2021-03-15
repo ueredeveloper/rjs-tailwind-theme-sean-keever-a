@@ -1,0 +1,51 @@
+
+
+@tailwind base;
+
+.theme-light {
+  --color-primaryBg: var(--color-primary-100);
+  --color-primaryBgSoft: var(--color-primary-200);
+  --color-primaryBgSofter: var(--color-primary-300);
+  --color-primarySoft: var(--color-primary-400);
+  --color-primary: var(--color-primary-500);
+  --color-primaryBold: var(--color-primary-600);
+  --color-onPrimaryBgSofter: var(--color-primary-700);
+  --color-onPrimaryBgSoft: var(--color-primary-800);
+  --color-onPrimaryBg: var(--color-primary-900);
+
+  --color-neutralBg: var(--color-neutral-100);
+  --color-neutralBgSoft: var(--color-neutral-200);
+  --color-neutralBgSofter: var(--color-neutral-300);
+  --color-neutralSoft: var(--color-neutral-400);
+  --color-neutral: var(--color-neutral-500);
+  --color-neutralBold: var(--color-neutral-600);
+  --color-onNeutralBgSofter: var(--color-neutral-700);
+  --color-onNeutralBgSoft: var(--color-neutral-800);
+  --color-onNeutralBg: var(--color-neutral-900);
+}
+
+.theme-dark {
+  --color-onPrimaryBg: var(--color-primary-100);
+  --color-onPrimaryBgSoft: var(--color-primary-300);
+  --color-onPrimaryBgSofter: var(--color-primary-400);
+  --color-primaryBold: var(--color-primary-600);
+  --color-primary: var(--color-primary-800);
+  --color-primarySoft: var(--color-primary-900);
+  --color-primaryBgSofter: var(--color-primary-900);
+  --color-primaryBgSoft: var(--color-primary-900);
+  --color-primaryBg: var(--color-primary-900);
+
+  --color-neutralBg: var(--color-neutral-800);
+  --color-neutralBgSoft: var(--color-neutral-700);
+  --color-neutralBgSofter: var(--color-neutral-600);
+  --color-neutralSoft: var(--color-neutral-500);
+  --color-neutral: var(--color-neutral-400);
+  --color-neutralBold: var(--color-neutral-300);
+  --color-onNeutralBgSofter: var(--color-neutral-200);
+  --color-onNeutralBgSoft: var(--color-neutral-100);
+  --color-onNeutralBg: var(--color-neutral-100);
+}
+
+@tailwind components;
+
+@tailwind utilities;
