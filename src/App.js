@@ -9,7 +9,15 @@ export default function App () {
   }, [lightTheme])
 
   return (
-    <h1 className="text-primary">Learn Reac 1</h1>
+    <div className={lightTheme ? 'theme-light' : 'theme-dark'}>
+    <input
+        type="checkbox"
+        checked={lightTheme}
+        onChange={() => setLightTheme(!lightTheme)}
+      />
+      
+      <p className="text-onPrimaryBgSoft bg-primary">Hello World</p>
+    </div>
   );
 }
 
